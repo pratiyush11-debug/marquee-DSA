@@ -10,7 +10,7 @@ public class MaxDuplicateDistance {
             int search=arr[i];
             for(int j=i+1;j<n;j++){
                 if(arr[j]==search){
-                    res=max(j-i,res);
+                    res=max(res,j-i);
                 }
             }
         }
