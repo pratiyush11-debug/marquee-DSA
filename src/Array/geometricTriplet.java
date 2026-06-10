@@ -6,9 +6,6 @@ public class geometricTriplet {
         for(int j=1;j<arr.length;j++){
             int i=j-1;
 
-
-
-
         int n= arr.length;
         while(i>=0) {
             int k=j+1;
