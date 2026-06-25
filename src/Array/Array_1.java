@@ -13,10 +13,13 @@ public class Array_1 {
         }
         System.out.print("the input of the array is: ");
 
-        for(int i=0;i<5;i++){
-            System.out.print(   arr[i] + " ");
-        }
+        for(int i=0;i<5;i++) {
+            if (arr[i] % 2 != 0) {
 
+
+                System.out.print(arr[i] + " ");
+            }
+        }
 
     }
 }

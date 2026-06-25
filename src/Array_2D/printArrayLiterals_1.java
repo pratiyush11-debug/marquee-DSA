@@ -2,7 +2,7 @@ package Array_2D;
 
 public class printArrayLiterals_1 {
     public static void main(String[] args) {
-        int arr[][]={{1,2,3},{4,5,6},{7,8,9}};
+        int [][]arr={{1,2,3},{4,5,6},{7,8,9}};
         System.out.println("The 2D Array is: ");
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr.length;j++){
@@ -10,5 +10,7 @@ public class printArrayLiterals_1 {
             }
             System.out.println();
         }
+        int[][] arrr,arr1[];
+        arr1=new int[5][][];
     }
 }

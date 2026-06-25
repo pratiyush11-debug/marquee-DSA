@@ -15,11 +15,7 @@ public class GcdOfNumber {
         }
         System.out.println(gcd);
 
-        int max=sc.nextInt();
-        int min=sc.nextInt();
-        while(min!=0){
 
-        }
 
 
     }
