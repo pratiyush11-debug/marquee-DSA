@@ -8,7 +8,7 @@ public class PalindromeNumber {
         int n1=sc.nextInt();
 
         int rev=0;
-        int n=sc.nextInt();
+        int n=n1;
         while(n>0){
             int rem =n%10;
 
