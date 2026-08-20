@@ -10,13 +10,14 @@ public class MinAndProduct {
             this.val=val;
 
         }
+
     }
     public static int min(Node root){
         if(root==null) return Integer.MAX_VALUE;
         int a=root.val;
         int b=min(root.left);
         int c= min(root.right);
-        return Math.min(a,Math.min(b,c));
+        return Math.min(a, Math.min(b, c));
 
     }
     public static int product(Node root){
