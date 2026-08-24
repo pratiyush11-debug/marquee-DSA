@@ -3,7 +3,7 @@ package DSA;
 public class Function {
     public  static void Age(int age){
         if(age<18){
-            System.out.println("child");
+            System.out.println("childern");
         }
         else if(age>18&&age<60){
             System.out.println("adult");
