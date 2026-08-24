@@ -18,7 +18,7 @@ public class ArmStrongNumber {
         if(sum==temp){
             System.out.println("ArmStrongNumber");
         }else{
-            System.out.println("Not ArmStrong Number");
+            System.out.println("Not ArmStrong No");
         }
 
     }
